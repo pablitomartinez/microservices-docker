@@ -7,7 +7,7 @@ module.exports = {
     list : async () => {
         const { data } = await axios.get(url) 
         console.log(data);
-        // return characters;
+        return character
     },
     create: async()=>{
         throw Error('Hay un error al crear el personaje')
